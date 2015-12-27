@@ -1,0 +1,112 @@
+.jcarousel-skin-tango .jcarousel-container {
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 772px;
+    padding: 20px 64px 0 64px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  772px;
+    height: 160px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 178px;
+    height: 160px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 20px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    width: 28px;
+    height: 27px;
+    cursor: pointer;
+    background: url(images/btnNext.jpg) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(images/btnPrev.jpg);
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    width: 28px;
+    height: 27px;
+    cursor: pointer;
+    background: url(images/btnPrev.jpg) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.png);
+}
+			.jcarousel-item h3{
+				font:12px Arial, Helvetica, sans-serif; color:#373737; margin: 3px 0 4px 0;
+			}
+				.jcarousel-item h3 a{
+					color:#373737; text-decoration:none;
+				}
+				.jcarousel-item h3 a:hover{
+					text-decoration: underline;
+				}
+				.jcarousel-item p{
+					font:12px Arial, Helvetica, sans-serif; color:#373737;
+				}
+					.jcarousel-item p span{
+						font:12px Arial, Helvetica, sans-serif; color:#bc3726;
+					}
+					.jcarousel-item p a{
+						color:#373737; text-decoration:none; border-bottom:1px solid #cdcdcd;
+					}
+					.jcarousel-item p a:hover{
+						color:#373737; text-decoration:none; border-bottom:none;
+					}

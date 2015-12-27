@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+.clr{
+    clear:both;
+}
+
+body {
+    background: #f6f6f4;
+}
+
+.topmenu-main {
+    background: #2d2d2d;
+}
+
+.topmenu {
+    width: 940px;
+    padding: 10px 10px 7px 10px;
+    margin: 0 auto;
+    font:12px Arial, Helvetica, sans-serif; 
+    line-height:1.2;
+    overflow:hidden;
+}
+
+.topmenu ul {
+    list-style: none;
+    float: left;
+    margin: 7px 0 0 0;
+}
+
+.topmenu ul li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.topmenu ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.topmenu ul li a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    color: #fff;
+    float: right;
+}
+
+.login p {
+    float: left;
+    color: #fff;
+    margin: 7px 20px 0 0 ;
+}
+
+.sign {
+    float: left;
+    background: url('images/sign-bg.jpg') no-repeat;
+    width: 100px;
+    padding: 5px 12px 7px 15px;
+    margin: 0 7px 0 0;
+}
+
+.sign input{
+    float:left;
+    background:none;
+    border:none;
+    color:#8e8e8e;
+    width:100px;
+}
+.login form{
+    float:left;
+}
+.login span{
+    font-size:23px; 
+    float:left;
+    line-height: 1;
+    margin: -1px 15px;
+}
+.login a{
+    color:#ea6a53; text-decoration:none;
+    margin: 5px 0 0;
+    float: left;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+.karkas {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.head {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
+.head-banner {
+    float: right;
+    margin: 15px 0 0 0;
+}
+
+.menu {
+    background-color: #c3c3c3;
+    overflow: hidden;
+    margin: 15px 0 0 0;
+}
+
+.menu ul {
+    list-style: none;
+    float: left;
+}
+
+.menu li {
+    float: left;
+    font-family: Bebas;
+    font-size: 14px;
+    border-left: 1px solid #b4b4b4;
+    text-transform: uppercase;
+    padding: 12px 18px;
+}
+
+.menu li:first-child {
+    float: left;
+    font-family: Bebas;
+    font-size: 14px;
+    border-left: none;
+    text-transform: uppercase;
+    padding: 12px 18px;
+}
+
+.menu li a {
+    color: #2d2d2d;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #ffffff;
+}
+
+.menu li a:hover{
+    text-decoration:underline;
+}
+a.activ{
+    color:#fff!important; 
+    text-shadow:none!important;
+}
+.search{
+    background:url(images/search-bg.jpg) no-repeat; 
+	float:right; 
+	width:113px;
+    padding: 4px 0 5px 10px;
+    margin: 9px 20px 0 0;
+}
+.search input{
+    float:left;
+}
+.stxt{
+    font:12px Arial, Helvetica, sans-serif; 
+	background:none; 
+	color:#a6a6a6;
+    width: 82px;
+    border: none;
+    margin: 0 4px 0 0;
+}
+
+.content-main {
+    overflow: hidden;
+    margin: 20px 0 20px 0;
+}
+
+.content {
+    float: left;
+    width: 640px;
+}
+
+.content-banner {
+    margin: 0 0 15px 0;
+}
+
+.content h1 {
+    font: 24px Bebas;
+    color: #2d2d2d; 
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+
+.content h1 span {
+    font: 12px Arial,Helvetica,sans-serif !important;
+    color: #858585 !important;
+    text-transform: none;
+}
+
+.product-main {
+    overflow: hidden;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0 0 0;
+}
+
+.product-in {
+    width: 660px;
+    overflow: hidden;
+}
+
+.product {
+    position: relative;
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.product h3 {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #373737;
+    margin: 10px 0 6px 0;
+}
+
+.product h3 a {
+    color: #373737;
+    text-decoration: none;
+}
+
+.product h3 a:hover {
+    text-decoration: underline;
+}
+
+.product p {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #373737;
+}
+
+.product p span {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #373737;
+}
+
+.product p a {
+    color: #767676;
+    text-decoration: none;
+}
+
+.product p a img {
+    top: 2px;
+    position: relative;
+    margin-right: 7px;
+}
+
+.product p a:hover {
+    color: #767676;
+    text-decoration: underline;
+}
+
+.sale {
+    background: url('images/sale.png') no-repeat;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font: 14px Georgia;
+    color: #363636;
+    text-align: center;
+    line-height: 1.1;
+    margin: 20px 20px 0 0;
+}
+
+.sale span {
+    color: #bc3726;
+}
+
+span.sale-num {
+    font-size: 24px;
+}
+
+.right-bar {
+    margin-left: 660px;
+}
+
+.right-banner-top {
+    margin: 0 0 20px 0;
+}
+
+.baner-right{
+	position:relative; 
+	margin:0 0 20px 0;
+}
+.baner-right a{
+	display:block; 
+	position:absolute; 
+	bottom:0; 
+	right:0; 
+	background:#bc3726; 
+	color:#fff; 
+	font:18px Arial, Helvetica, sans-serif; 
+	text-decoration:none;
+	margin: 0 0 20px 0;
+	padding: 5px 20px 5px 10px;
+}
+.baner-right a:hover{
+	text-decoration:underline;
+}
+
+.other-product{
+	background:#fff;
+	padding: 20px 20px 40px 20px;
+}
+.other-product h2{
+	font:18px Bebas; 
+	color:#2d2d2d; 
+	text-transform:uppercase;
+	margin: 0 0 10px;
+}
+.other-product h2 span{
+	font:12px Arial,Helvetica,sans-serif !important; 
+	color:#858585 !important; 
+	text-transform:none;
+}
+
+.footer-mein{
+	background:#2d2d2d; 
+	overflow:hidden;
+	padding: 20px 0 30px 0;
+}
+.footer{
+	width:940px; 
+	padding:0 10px; 
+	margin:0 auto;
+}
+.ftr-logo{
+	float:right;
+}
+.footer p{
+	float:left; 
+	font:12px Arial, Helvetica, sans-serif; 
+	color:#adadad;
+	line-height: 2;
+	margin: 20px 0 0 0;
+}
+.footer p a{
+	color:#adadad; 
+	text-decoration: none;
+}
+.footer p a:hover{
+	text-decoration: underline;
+}
+.footer p span{
+	color:#fff;
+}
